@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "793f1e01-e19a-43ef-b16b-552825685a66",
+		"name": "GCP PubSub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6127753"
+	},
+	"item": [
+		{
+			"name": "Send Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"this is first message \"\r\n",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/send/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"send",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
